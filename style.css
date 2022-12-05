@@ -2,25 +2,29 @@ body{
     margin: 0px;
 }
 
-.animals:hover {
-    diplay: flex-inline;
+.animals {
+    display: flex;
+    flex-wrap: wrap;
     margin:  10px;
-    align-content: center;
-    transition: 10px, 10px, 1s;
+    justify-content: center;
 }
 
 h1 {
     width: 300px;
+    fotn-size: 3em;
     font-family:  Cursive;
     border-bottom: 5px dashed pink;
     border-right: 5px dashed pink;
     text-align: center;
 }
 
-
-
 img {
-	width: 400px;
-	height: 400px;
-    transform: scale(1.0);
+	width: 300px;
+	height: 250px;
+    transition: all 1s;
+    margin: 10px;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
