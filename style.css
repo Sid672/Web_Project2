@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+
+.animals:hover {
+    diplay: flex-inline;
+    margin:  10px;
+    align-content: center;
+    transition: 10px, 10px, 1s;
+}
+
+h1 {
+    width: 300px;
+    font-family:  Cursive;
+    border-bottom: 5px dashed pink;
+    border-right: 5px dashed pink;
+    text-align: center;
+}
+
+
+
+img {
+	width: 400px;
+	height: 400px;
+    transform: scale(1.0);
+}
